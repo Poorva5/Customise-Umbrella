@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.customizer-container {
+    background-color: #e6f6fc;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.styled-umbrella-img {
+    display: block;
+    height: 480px;
+    width: 100%;
+    position: relative;
+}
+
+.umbrella-heading {
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.umbrella-container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.color-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-color-wrapper {
+    background-color: #7fd2f0;
+}
+
+.yellow-color-wrapper {
+    background-color: #fdd964;
+}
+
+.pink-color-wrapper {
+    background-color: #d9338c;
+}
+
+.blue-color {
+    background-color: #22a3e0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.yellow-color {
+    background-color: #fdd141;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.pink-color {
+    background-color: #d0006f;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.umbrella-sub-heading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.upload-image-text {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0px;
+    color: #000000;
+}
+
+.image-format-text {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0px;
+    color: #000000;
+}
+
+.upload-button {
+    width: 100%;
+    background-color: #22a3e0;
+    padding: 15px 20px;
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+
+.svg-icon {
+    fill: #ffffff;
+    cursor: pointer;
+}
+
+.upload-button-text {
+    padding-left: 100px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.styled-logo {
+    height: 30px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-icon {
+    animation: spin 2s linear infinite;
+}
